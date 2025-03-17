@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-start">
-        <Link className="btn btn-ghost text-xl" to="/">
+        <Link className="btn btn-ghost btn-lg" to="/">
           Logo
         </Link>
       </div>
@@ -14,7 +14,7 @@ export function Navbar() {
         </Link>
       </div>
       <div className="navbar-end flex items-center gap-4">
-        <Link className="btn btn-primary" to="/auth">
+        <Link className="btn btn-primary flex gap-2" to="/auth">
           Login
         </Link>
         <label className="swap swap-rotate">
@@ -22,7 +22,7 @@ export function Navbar() {
           <input
             type="checkbox"
             className="theme-controller"
-            value="darkgray"
+            value="lightgray"
           />
 
           {/* sun icon */}
