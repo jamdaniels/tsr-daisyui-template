@@ -6,6 +6,8 @@ import {
   IconChartBar,
   IconLayoutSidebarLeftCollapse,
   IconLayoutSidebarLeftExpand,
+  IconFolder,
+  IconFilePlus,
 } from "@tabler/icons-react";
 import { useState } from "react";
 
@@ -66,6 +68,28 @@ function RouteComponent() {
 
       {/* Main Content */}
       <div className="flex-1 p-8">
+        <div className="breadcrumbs text-sm mb-4">
+          <ul>
+            <li>
+              <a>
+                <IconFolder size={16} className="stroke-current" />
+                Home
+              </a>
+            </li>
+            <li>
+              <a>
+                <IconFolder size={16} className="stroke-current" />
+                Documents
+              </a>
+            </li>
+            <li>
+              <span className="inline-flex items-center gap-2">
+                <IconFilePlus size={16} className="stroke-current" />
+                Add Document
+              </span>
+            </li>
+          </ul>
+        </div>
         <h1 className="text-2xl font-bold">Welcome to Dashboard</h1>
         <p className="mt-4">This is your main content area.</p>
       </div>

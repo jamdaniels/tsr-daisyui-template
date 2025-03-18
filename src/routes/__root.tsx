@@ -1,13 +1,11 @@
 import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
-import { Navbar } from "../features/layout/Navbar";
 import { IconError404, IconHome } from "@tabler/icons-react";
 
 export const Route = createRootRoute({
   component: () => (
     <>
       <div className="max-w-6xl mx-auto">
-        <Navbar />
         <Outlet />
         <TanStackRouterDevtools />
       </div>
