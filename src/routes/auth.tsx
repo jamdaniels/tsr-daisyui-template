@@ -9,10 +9,10 @@ function RouteComponent() {
   return (
     <>
       <Navbar />
-      <div className="h-screen flex items-center justify-center">
+      <div className="flex items-center justify-center min-h-[700px]">
         <div className="card bg-base-200 w-full max-w-sm shrink-0 shadow-2xl">
           <div className="card-body">
-          <h2 className="card-title mb-2">Login</h2>
+            <h2 className="card-title mb-2">Login</h2>
             <fieldset className="fieldset">
               <label className="fieldset-label">Email</label>
               <input type="email" className="input" placeholder="Email" />

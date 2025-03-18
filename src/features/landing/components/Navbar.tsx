@@ -5,7 +5,7 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-start">
-        <Link className="btn btn-ghost btn-lg" to="/">
+        <Link className="btn btn-ghost" to="/">
           Logo
         </Link>
       </div>

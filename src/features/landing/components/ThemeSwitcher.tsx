@@ -1,11 +1,7 @@
 export function ThemeSwitcher() {
   return (
     <label className="swap swap-rotate btn btn-ghost btn-square">
-      <input
-        type="checkbox"
-        className="theme-controller"
-        value="darkgray"
-      />
+      <input type="checkbox" className="theme-controller" value="darkgray" />
       <svg
         className="swap-off size-6 fill-current"
         xmlns="http://www.w3.org/2000/svg"
@@ -22,4 +18,4 @@ export function ThemeSwitcher() {
       </svg>
     </label>
   );
-} 
+}

@@ -2,7 +2,7 @@ import logo from "../../../daisyui.svg";
 
 export function Hero() {
   return (
-    <div className="hero bg-base-100 min-h-screen">
+    <div className="hero bg-base-100 min-h-[700px]">
       <div className="hero-content flex-col lg:flex-row">
         <img src={logo} className="h-[40vmin] pointer-events-none" alt="logo" />
         <div className="flex flex-col gap-4">
